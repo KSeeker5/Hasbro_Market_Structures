@@ -1,0 +1,49 @@
+body
+{
+	background-color:#676767;
+	text-align:center;
+	color:#FFFFFF;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+td
+{
+	text-align:center;
+	margin:auto;
+}
+
+div.link
+{
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	margin:10px;
+    position:relative;
+}
+
+img.link
+{
+	width:200px;
+	height:200px;
+	box-shadow:0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+}
+
+img.link:hover
+{
+	animation-name:imgHover;
+	animation-duration:.5s;
+	animation-fill-mode:forwards;
+}
+
+@keyframes imgHover
+{
+    from
+	{
+		box-shadow:0 4px 8px 0 #000000, 0 6px 20px 0 #000000;
+	}
+    to
+	{
+		box-shadow:0 4px 8px 0 #00FFFF, 0 6px 20px 0 #00FFFF;
+	}
+}
